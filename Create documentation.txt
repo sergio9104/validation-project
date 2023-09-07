@@ -1,0 +1,83 @@
+// user
+
+Create a README file with:
+Application description: 2 paragraphs, 4-10 Sentences.
+Information on how to run developed application locally.
+At least 2 example urls how to change locale.
+
+ for an app that needs to follow the next requirements.
+React JS applications can launch, and no errors in the console; 
+React JS applications can handle a call to the landing page and return HTML content; 
+The app use i18next to manage locale.
+The app was created with create-react-app.
+The source code should be without commented or unused functions and methods; 
+React JS application should handle locale; 
+React JS application should have logic to switch locales; 
+3 locales should be defined and work without issues (UA, EN, FR); 
+Logic to format numbers is implemented for all mentioned locales and format numbers according to local standards; 
+Logic for Date/Time formatting is implemented for all locales and works as expected; 
+Logic to display currency is implemented for all the mentioned locales; 
+Logic to handle missed translations is built and works as expected; 
+
+// chat gpt
+# README for Localized React Application
+
+## Application Description
+This React application provides a seamless experience for users across different locales, specifically supporting Ukrainian (UA), English (EN), and French (FR). Built on the power of React and harnessing the capabilities of `i18next`, our app ensures accurate translation, currency representation, date/time formatting, and number formatting tailored to the user's chosen locale. Besides these, the application has inbuilt functionality to handle missed translations, making sure the user experience remains unhindered. The app has been developed adhering to high standards, ensuring no commented or unused code in the source, and no console errors.
+
+## Running the Application Locally
+1. Ensure you have Node.js and npm installed on your machine.
+2. Clone the repository to your local machine.
+   ```
+   git clone [repository-url]
+   ```
+3. Navigate to the app directory.
+   ```
+   cd [app-directory]
+   ```
+4. Install the required packages.
+   ```
+   npm install
+   ```
+5. Start the application.
+   ```
+   npm start
+   ```
+
+The application should now be running on `http://localhost:3000`.
+
+## Switching Locale
+The application supports dynamic locale switching. You can set your preferred locale through the URL's query parameters. Here are some examples:
+
+1. For English:
+   ```
+   http://localhost:3000?lang=en
+   ```
+
+2. For French:
+   ```
+   http://localhost:3000?lang=fr
+   ```
+
+To use other supported locales, simply replace the `lang` query parameter's value with the desired locale (e.g., `ua` for Ukrainian).
+
+## Additional Features
+- **Number Formatting**: Numbers are automatically formatted according to the chosen locale's standards.
+  
+- **Date/Time Formatting**: Our application ensures date and time are displayed as per local customs of the selected locale.
+  
+- **Currency Display**: Currencies are represented in the format familiar to the chosen locale.
+  
+- **Missed Translations Handling**: In case a translation is missing, the application has logic to handle it gracefully, ensuring a smooth user experience.
+
+Thank you for choosing our localized React application! We hope it serves your needs aptly.
+
+//user
+Application description: 2 paragraphs, 4-10 Sentences.
+
+//chatgpt
+## Application Description
+
+Welcome to our React-based web application that sets a new standard in multilingual support. Designed specifically to cater to audiences from diverse linguistic backgrounds, this application comes with built-in support for Ukrainian (UA), English (EN), and French (FR). It's not just about translations; it's about a localized experience. Every aspect, be it currency representation, date/time formatting, or number visualization, has been meticulously tailored to resonate with the locale's norms and standards.
+
+Harnessing the robust capabilities of `i18next`, this application guarantees an unhindered and smooth user experience even in the face of missed translations. Its architecture ensures there are no console errors, and its source code is optimized, free from redundant commented sections or unused methods. With a strong emphasis on providing a seamless and native experience for each supported language, this application is your perfect solution for a truly internationalized web presence.
