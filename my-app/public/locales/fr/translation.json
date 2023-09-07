@@ -1,0 +1,10 @@
+{
+  "welcome": "Bienvenue",
+  "number": "{{value, number}}", 
+  "inch": "{{value}} pouce", 
+  "cm": "{{value}} cm",
+  "pound": "{{value}} livre", 
+  "kg": "{{value}} kg",
+  "liter": "{{value}} litre",
+  "oz": "{{value}} oz"
+}

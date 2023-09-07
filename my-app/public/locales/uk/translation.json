@@ -1,0 +1,10 @@
+{
+  "welcome": "Ласкаво просимо",
+  "number": "{{value, number}}",
+  "inch": "{{value}} дюйм",
+  "cm": "{{value}} см",
+  "pound": "{{value}} фунт",
+  "kg": "{{value}} кг",
+  "liter": "{{value}} л",
+  "oz": "{{value}} унція"
+}
